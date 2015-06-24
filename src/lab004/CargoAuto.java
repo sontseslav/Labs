@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package l005;
+package lab004;
 
 /**
  *
  * @author user
  */
-public class MyClass {
-    protected int y;
-
-    protected MyClass() {
-        this.y = 12;
-    }
-    
-    
-    
-    
+public interface CargoAuto {
+    void onBoardCargo();
 }
